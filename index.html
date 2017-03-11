@@ -5,7 +5,9 @@
         <title>Formularz</title>
     </head>
     <body>
-        <form>
+        <form action="https://formspree.io/your@email.com"
+      method="POST">
+           
             <label for="name">Imię</label>
             <input type="text" name="imie" id="name">
             <label for="surname">Nazwisko</label>
@@ -15,6 +17,7 @@
             <label for="telnumb">Numer telefonu</label>
             <input type="text" name="telnumb" id="telnumb">
             <textarea rows="4" cols="50"></textarea>
+                <input type="submit" value="Send">
 
 
         </form>
